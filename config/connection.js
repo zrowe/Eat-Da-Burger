@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     user: process.env.SQL_USER,
     password: process.env.SQL_PASSWORD,
-    database: "cat_db"
+    database: "burgers_db"
 });
 
 // Make connection.
