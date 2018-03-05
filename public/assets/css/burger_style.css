@@ -11,7 +11,7 @@ html {
 
 .wrapper {
     /* The image used */
-    background-image: url("../img/background.png");
+    background-image: url("../img/background2.png");
 
     /* Full height */
     height: 100%;
@@ -20,4 +20,12 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.panel {
+    opacity: .8
 }
