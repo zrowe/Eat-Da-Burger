@@ -1,0 +1,23 @@
+/*html {
+    height: 100%;
+    background: url(../img/background.jpg) no-repeat center fixed;
+    background-size: cover;
+}*/
+
+body,
+html {
+    height: 100%;
+}
+
+.wrapper {
+    /* The image used */
+    background-image: url("../img/background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
