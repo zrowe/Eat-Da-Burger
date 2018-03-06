@@ -55,7 +55,7 @@ Launch a browser (preferably, Chrome) and direct it to your server and port (by 
 
 The user is greeted by the home screen:
 
-![Welcome Screen](screenshots/home.png "Welcome Screen")
+![Welcome Screen](snapshoots/home.png "Welcome Screen")
 
 On the left, you see a bucket-list of your dream-burgers.  On the right, the burgers you have munched.  
 
