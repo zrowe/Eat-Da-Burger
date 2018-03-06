@@ -13,7 +13,7 @@ $(function() {
             data: eatenState
         }).then(
             function() {
-                console.log("changed to", eatenState);
+                // console.log("changed to", eatenState);
                 // Reload the page to get the updated list
                 location.reload();
             }
@@ -34,7 +34,7 @@ $(function() {
             data: newBurger
         }).then(
             function() {
-                console.log("added a new burger");
+                // console.log("added a new burger");
                 // Reload the page to get the updated list
                 location.reload();
             }

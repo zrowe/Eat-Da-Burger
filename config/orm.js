@@ -61,14 +61,17 @@ var orm = {
         queryString += printQuestionMarks(vals.length);
         queryString += ") ";
 
-        console.log(queryString);
+        // console.log(queryString);
 
         connection.query(queryString, vals, function(err, result) {
             if (err) {
-                throw err;
+                if (!err.errno === 1062) {
+                    throw err;
+                } else {
+                    result = { insertId: null }; //duplicate (ignore error)
+                }
             }
-
-            cb(result);s
+            cb(result);
         });
     },
     // An example of objColVals would be {name: panther, sleepy: true}
@@ -80,7 +83,7 @@ var orm = {
         queryString += " WHERE ";
         queryString += condition;
 
-        console.log(queryString);
+        // console.log(queryString);
         connection.query(queryString, function(err, result) {
             if (err) {
                 throw err;

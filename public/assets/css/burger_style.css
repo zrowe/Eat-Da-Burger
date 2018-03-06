@@ -1,22 +1,27 @@
-/*html {
-    height: 100%;
-    background: url(../img/background.jpg) no-repeat center fixed;
-    background-size: cover;
-}*/
-
 body,
 html {
     height: 100%;
+    font-family: cursive;
+    color: white;
+}
+
+button {
+    color: black;
+    background-color: #78a437;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px black solid !important;
+}
+
+button:hover {
+    background-color: yellow;
+    border: 1px solid black;
+    border-style: solid;
 }
 
 .wrapper {
-    /* The image used */
     background-image: url("../img/background2.png");
-
-    /* Full height */
     height: 100%;
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +29,28 @@ html {
 
 .jumbotron {
     background-color: transparent;
+    color: black;
 }
 
 .panel {
-    opacity: .8
+    border-radius: 30px;
+    background: rgba(51, 48, 12, 0.5);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.item-uneaten {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.item-eaten {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.add-burger {
+    margin-top: 10px;
 }

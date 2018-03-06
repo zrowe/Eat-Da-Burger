@@ -6,3 +6,5 @@ INSERT INTO burgers (burger_name) VALUES ("Quarter Pounder with Cheese");
 INSERT INTO burgers (burger_name) VALUES ("Meisterburger");
 INSERT INTO burgers (burger_name) VALUES ("The Big Mouth Burger");
 INSERT INTO burgers (burger_name) VALUES ("The Frjtz Burger");
+INSERT INTO burgers (burger_name) VALUES ("Causwells Americana Burger");
+
